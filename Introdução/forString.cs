@@ -13,9 +13,9 @@ namespace ConsoleApplication3
             string[] palavras = {"Subsonica", "Pearl Jam", "SoundGarden", "Red Hot Chili Peppers"};
             Console.log("Melhores bandas do mundo:");
 
-            for(int contador = 0; contador < palavras.Length; contador++)
+            for(int index = 0; index < palavras.Length; index++)
             {
-              Console.WriteLine(palavras);
+              Console.WriteLine(palavras[index]);
 
             }
 
