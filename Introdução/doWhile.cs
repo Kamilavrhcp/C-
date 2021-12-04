@@ -11,11 +11,12 @@ namespace ConsoleApplication3
         static void Main(string[] args)
         {
             int contador = 0;
-            while (contador > 0)
+
+            do
             {
               Console.WriteLine("Rodando o While!");
               contador ++;
-            }
+            } while (contador < 5);
 
             Console.ReadLine();
         }
